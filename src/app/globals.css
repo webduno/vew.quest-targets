@@ -1,0 +1,283 @@
+@import url('https://unpkg.com/csscss@1.1.2/index.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Reenie+Beanie&family=Zeyada&display=swap');
+
+
+
+body, html {
+  font-family: 'Consolas';
+}
+
+.tx-altfont-1 {     font-family: 'Consolas' !important}
+/* .tx-altfont-1 {     font-family: 'Raleway', sans-serif !important} */
+.tx-altfont-2 {     font-family: 'Rubik', sans-serif !important}
+.tx-altfont-5 {     font-family: "Wallpoet", sans-serif !important}
+/* HAND WRITTEN */
+.tx-altfont-6 {     font-family: "Caveat", sans-serif !important}
+.tx-altfont-7 {     font-family: "Indie Flower", sans-serif !important}
+.tx-altfont-8 {     font-family: "Reenie Beanie", sans-serif !important}
+.tx-altfont-9 {     font-family: "Zeyada", sans-serif !important}
+
+.flicker-1 {   animation: opacity-flicker 1s; animation-iteration-count: infinite; }
+.flicker-2 {   animation: opacity-flicker 2s; animation-iteration-count: infinite; }
+.flicker-3 {   animation: opacity-flicker 3s; animation-iteration-count: infinite; }
+.flicker-4 {   animation: opacity-flicker 4s; animation-iteration-count: infinite; }
+.flicker-5 {   animation: opacity-flicker 5s; animation-iteration-count: infinite; }
+.flicker-6 {   animation: opacity-flicker 6s; animation-iteration-count: infinite; }
+.flicker-7 {   animation: opacity-flicker 7s; animation-iteration-count: infinite; }
+
+
+@keyframes opacity-flicker {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.dilating-blur {
+  animation: dilating-blur 30s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes dilating-blur {
+  0% {
+    filter: blur(0px);
+  }
+  50% {
+    filter: blur(1px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+
+
+
+.hover-5{animation: hover 5s;  animation-iteration-count: infinite }
+.hover-6{animation: hover 6s;  animation-iteration-count: infinite }
+.hover-7{animation: hover 7s;  animation-iteration-count: infinite }
+.hover-8{animation: hover 8s;  animation-iteration-count: infinite }
+.hover-9{animation: hover 9s;  animation-iteration-count: infinite }
+.hover-10{animation: hover 10s;  animation-iteration-count: infinite }
+.hover-11{animation: hover 11s;  animation-iteration-count: infinite }
+.hover-12{animation: hover 12s;  animation-iteration-count: infinite }
+.hover-13{animation: hover 13s;  animation-iteration-count: infinite }
+.hover-14{animation: hover 14s;  animation-iteration-count: infinite }
+.hover-15{animation: hover 15s;  animation-iteration-count: infinite }
+.hover-16{animation: hover 16s;  animation-iteration-count: infinite }
+.hover-17{animation: hover 17s;  animation-iteration-count: infinite }
+.hover-18{animation: hover 18s;  animation-iteration-count: infinite }
+
+
+.hover-snack-1{animation: hoversnack 1s;  animation-iteration-count: infinite }
+.hover-snack-2{animation: hoversnack 2s;  animation-iteration-count: infinite }
+.hover-snack-3{animation: hoversnack 3s;  animation-iteration-count: infinite }
+.hover-snack-4{animation: hoversnack 4s;  animation-iteration-count: infinite }
+.hover-snack-5{animation: hoversnack 5s;  animation-iteration-count: infinite }
+.hover-snack-6{animation: hoversnack 6s;  animation-iteration-count: infinite }
+.hover-snack-7{animation: hoversnack 7s;  animation-iteration-count: infinite }
+.hover-snack-8{animation: hoversnack 8s;  animation-iteration-count: infinite }
+.hover-snack-9{animation: hoversnack 9s;  animation-iteration-count: infinite }
+.hover-snack-10{animation: hoversnack 10s;  animation-iteration-count: infinite }
+.hover-snack-11{animation: hoversnack 11s;  animation-iteration-count: infinite }
+.hover-snack-12{animation: hoversnack 12s;  animation-iteration-count: infinite }
+.hover-snack-13{animation: hoversnack 13s;  animation-iteration-count: infinite }
+.hover-snack-14{animation: hoversnack 14s;  animation-iteration-count: infinite }
+.hover-snack-15{animation: hoversnack 15s;  animation-iteration-count: infinite }
+.hover-snack-16{animation: hoversnack 16s;  animation-iteration-count: infinite }
+.hover-snack-17{animation: hoversnack 17s;  animation-iteration-count: infinite }
+.hover-snack-18{animation: hoversnack 18s;  animation-iteration-count: infinite }
+@keyframes hoversnack {
+	0%{transform: translateY(10px)}50%{transform: translateY(-10px)}100%{transform: translateY(10px)}
+}
+
+
+
+
+.hover-jump{animation: hoverjump 10s;  animation-iteration-count: infinite }
+.hover-jump-12{animation: hoverjump 12s;  animation-iteration-count: infinite }
+
+
+@keyframes hoverjump {
+	0%{transform: translateY(0px)}
+	33%{transform: translateY(0px)}
+  35%{transform: translateY(-15px) rotate(7deg);}
+  36%{transform: translateY(-12px) rotate(-3deg);}
+  38%{transform: translateY(0px)}
+  39%{transform: translateY(-4px)}
+  40%{transform: translateY(-3px)}
+  41%{transform: translateY(0px)}
+  100%{transform: translateY(0px)}
+}
+
+
+
+
+.room-select-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+} 
+
+.game-btn-base {
+  transition: all 0.1s ease;
+}
+
+.game-btn-base:hover {
+  transform: translateY(-2px) rotate(-2deg);
+}
+
+.game-btn-alpha {
+  background: linear-gradient(0deg, #6A9A39 30%, #ADDA2F 70%);
+  box-shadow: 0 3px 1px 1px #467758, inset 0 2px 5px 2px #f4ffaE;
+}
+
+.game-btn-beta {
+  background: linear-gradient(0deg, #3F8Fb3 30%, #1EF0F1 70%);
+  box-shadow: 0 3px 1px 1px #3C6893, inset 0 2px 5px 2px #1EF0F1;
+}
+
+.game-btn-gamma {
+  background: linear-gradient(0deg, #8B0000 30%, #FF4444 70%);
+  box-shadow: 0 3px 1px 1px #5C0000, inset 0 2px 5px 2px #FFAAAA;
+}
+
+.game-btn-delta {
+  background: linear-gradient(0deg, #B35B00 30%, #FFA500 70%);
+  box-shadow: 0 3px 1px 1px #805300, inset 0 2px 5px 2px #FFD700;
+}
+
+.game-btn-epsilon {
+  background: linear-gradient(0deg, #f46A5A 30%, #FFB3B3 70%);
+  box-shadow: 0 3px 1px 1px #cc3333, inset 0 2px 5px 2px #FFc6c6;
+}
+
+.game-btn-zeta {
+  background: linear-gradient(0deg, #E29800 30%, #FFD700 70%);
+  box-shadow: 0 3px 1px 1px #B47733, inset 0 2px 5px 2px #FFe770;
+}
+
+.game-btn-indigo {
+  background: linear-gradient(0deg, #A13B9B 30%, #D18BCB 70%);
+  box-shadow: 0 3px 1px 1px #7B1B85, inset 0 2px 5px 2px #E5C4E0;
+}
+
+.game-btn-white {
+  background: linear-gradient(0deg, #cccccc 30%, #ffffff 70%);
+  box-shadow: 0 3px 1px 1px #b49743, inset 0 2px 5px 2px #FFe7a0;
+}
+
+.game-text-input {
+  background: #FfeBc2;
+  border: none;
+  box-shadow: inset 0 -1px 2px #844703, 0 0 0 2px #F8B507, 0 0 0 3px #B47733;
+}
+
+.game-list-item {
+  background: #FfeBc2;
+  border: none;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2), 0 0 0 2px #F8B507;
+  text-shadow: 0 0 2px #000000, 1px 1px #000000;
+}
+
+.game-list-item:hover {
+  background: radial-gradient( #FfeBc2 30%, #ffdd88 70%);
+  transform: translateY(-2px) rotate(-2deg);
+  box-shadow: inset 0 -1px 2px #844703, 0 0 0 2px #F8B507, 0 0 0 3px #B47733, 0 0 16px 8px #ffcc88;
+}
+
+.game-font-1 {
+  color: #FFD250;
+  text-shadow: 0 2px 0px #B6522A, 0 3px 2px #6E2612;
+}
+
+.game-font-2 {
+  color: #A9EC4F;
+  text-shadow: 0 2px 0px #66A445, 0 3px 2px #1A4E2D;
+}
+
+
+
+.key-btn {
+  cursor: pointer;
+  background: linear-gradient(160deg, #2F2E29, #4F4E49, #66665A);
+  box-shadow: inset 1px 1px 1px #ffffff33, inset -5px -5px 10px #00000077, inset 0 -4px 1px 6px #52534B;
+}
+
+.key-btn:hover {
+  background: linear-gradient(160deg, #5F4E43, #66665A);
+  transform: translateY(-2px) scale(1.1);
+}
+
+.tuto-paper {
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+.tuto-paper:hover {
+  transform: translateY(-2px) scale(1.1);
+}
+
+
+.vintage-panel {
+  border-radius: 3px;
+  background: linear-gradient(-45deg, #2F2E29, #4F4E49, #66665A);
+  box-shadow: inset -2px -2px 1px #1a1a1a, inset 2px 2px 1px #888888;
+}
+
+
+
+
+.hover-10{
+  animation: specialhover 20s; 
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite 
+}
+@keyframes specialhover {
+	0%{transform: translateY(-5px)}
+  25%{transform: translateY(5px) rotate(1deg)}
+	50%{transform: translateY(0px) rotate(-1deg)}
+  75%{transform: translateY(5px) rotate(1deg)}
+  100%{transform: translateY(-5px)}
+}
+
+
+.hover-bird{
+  animation: hover-bird 15s; 
+  animation-timing-function: linear;
+  animation-iteration-count: infinite 
+}
+@keyframes hover-bird {
+	0%{transform: translateY(-15px) scale(1)}
+	50%{transform: translateY(0px) scale(.85)}
+  100%{transform: translateY(-15px) scale(1)}
+}
+
+
+.landing-title {
+  background: -webkit-linear-gradient(90deg, #a76900, #FDC908);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hover-bird {
+  transition: all 0.1s ease;
+}
+
+.hover-bird:hover {
+  transform: translateY(-2px) scale(1.1);
+}

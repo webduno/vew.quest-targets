@@ -1,0 +1,11 @@
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+
+.tx-gg {
+  color: #777777;
+}
